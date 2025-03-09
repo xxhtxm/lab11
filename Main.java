@@ -38,7 +38,7 @@ public class Main {
     }
 }
 class Person {
-    private int age;
+    public int age;
     public String FIO;
     public String phone;
 
