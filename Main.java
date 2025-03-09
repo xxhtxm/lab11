@@ -38,7 +38,7 @@ public class Main {
     }
 }
 class Person {
-    public int age;
+    private int age;
     public String FIO;
     public String phone;
 
@@ -54,7 +54,7 @@ class Person {
 class Student extends Person {
     public int curs;
     public String facultet;
-    public int postuplenie;
+    private int postuplenie;
 
     public Student(String FIO, String phone, int age, int curs, String facultet, int postuplenie) {
         super(FIO, phone, age);
