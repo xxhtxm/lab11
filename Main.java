@@ -54,7 +54,7 @@ class Person {
 class Student extends Person {
     public int curs;
     public String facultet;
-    private int postuplenie;
+    public int postuplenie;
 
     public Student(String FIO, String phone, int age, int curs, String facultet, int postuplenie) {
         super(FIO, phone, age);
